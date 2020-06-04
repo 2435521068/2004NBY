@@ -71,11 +71,17 @@
 
 /* 右边部分 */
 .X-right{
-    height: 100px;
+    height: auto;
     float: right;
+    margin-top:55px;
     margin-bottom: 20px;
     width: 50%;
     /* background: red; */
+}
+/* 上部分 */
+.R-top{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 .R-top h2{
     font-size: 24px;
@@ -84,10 +90,139 @@
 .R-top p{
     color: #666;
     font-size: 14px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 .R-top span{
     color: #333;
     font-size: 24px;
+    font-weight: 800;
+}
+/* 中间部分 */
+.R-center{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee;
+}
+.rightLabel{
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 20px;
     font-weight: 500;
+}
+.promo-info {
+    width: 85%;
+    display: inline-block;
+}
+.promo-info p {
+    width: 100%;
+    margin-bottom: 7px;
+    color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.wrap-txt {
+    margin-right: 0.85rem;
+    color: #de634f;
+    padding: 0rem 1rem;
+    border: 1px solid #de634f;
+    background: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+/* 地址 */
+.R-address{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee;
+}
+.rightLabel{
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.promo-info {
+    width: 85%;
+    display: inline-block;
+}
+.promo-info p {
+    width: 100%;
+    margin-bottom: 7px;
+    color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.R-address .wrap-txt {
+    margin-right: 0.85rem;
+    color: #de634f;
+    padding: 0rem 1rem;
+    margin-top: 10px;
+    border: 1px solid #de634f;
+    background: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.R-address .lo img{
+    width: 14px;
+    left: 10px;
+    margin-right: 10px;
+}
+.R-address .lo span{
+    font-weight: 600;
+}
+/* 按钮部分 */
+.R-btn{
+    padding-top: 30px;
+}  
+.R-btn input{
+    width: 40%;
+    height: 40px;
+    background: #de634f;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.R-btn .btn1{
+    margin-left: 10px;
+    color: wheat;
+}
+.R-btn .btn2{
+     margin-left: 20px;
+     background: #eee;
+}
+/* 详情 */
+.pdt-content {
+    /* margin-top: 80px; */
+    display: inline-block;
+    padding: 20px 20px 5px 20px;
+}
+.tab-content img, .details-img img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+#back-to-top{
+    position:fixed; 
+    /* display:none;  */
+    bottom:100px; 
+    right:0;
+    border-radius: 30px;
+    background: rgb(0, 0, 0);
+    color: white;
 }

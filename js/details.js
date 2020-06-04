@@ -69,3 +69,10 @@ function range(iCur, iMin, iMax){
         return iCur;
     }
 }
+//返回顶部
+$(function(){
+    $("#back-to-top").click(function(){ 
+        $('body,html').animate({scrollTop:0},1000); 
+        return false; 
+    }); 
+})

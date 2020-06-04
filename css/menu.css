@@ -39,6 +39,8 @@ nav .logoB li a{
     height: auto;
     /* background: red; */
     padding: 24px 0;
+    overflow: hidden;
+    
 }
 .shoplist3{
     width: 100%;
