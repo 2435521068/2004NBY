@@ -52,7 +52,7 @@ deff.done(function(json){
         for( var j = 0 ; j < json[attr].xXilie.length ; j++ ){
             var pro = json[attr].xXilie[j];
             strCon1 += `<li>
-                            <a href="#?pid=${pro.id}&cname=${attr}">
+                            <a href="./details1.html?pid=${pro.id}&cname=${attr}">
                                 <img src="img/${pro.src}" alt="" />
                                 <p>${pro.name}</p>
                             </a>
@@ -64,7 +64,7 @@ deff.done(function(json){
         for( var j = 0 ; j < json[attr].hongmo.length ; j++ ){
             var pro = json[attr].hongmo[j];
             strCon2 += `<li>
-                            <a href="#?pid=${pro.id}&cname=${attr}">
+                            <a href="./details1.html?pid=${pro.id}&cname=${attr}">
                                 <img src="img/${pro.src}" alt="" />
                                 <p>${pro.name}</p>
                             </a>
@@ -77,7 +77,7 @@ deff.done(function(json){
         for( var j = 0 ; j < json[attr].list.length ; j++ ){
             var pro = json[attr].list[j];
             strCon3 += `<li class="col-md-3 col-sm-4 col-xs-6">
-                            <a href="./details1.html">
+                            <a href="./details1.html?pid=${pro.id}&cname=${attr}">
                                 <img src="img/${pro.src}" alt="" />
                                 <p>${pro.name}</p>
                                 <button>加入购物车</button>
