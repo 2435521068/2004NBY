@@ -33,6 +33,11 @@ nav .logoB li a{
 #banner1{
     margin-top: 0;
 }
+.bannerB{
+    width: 100%;
+    height: 573px;
+    position: relative;
+}
 /* list */
 #listAll{
     width: 100%;
@@ -61,11 +66,6 @@ nav .logoB li a{
     padding: 60px 10px;
     color: white;
 }
-#listAll .shoplist3 a button{
-    border-radius: 20%;
-    border:1px solid white;
-    background: #1f1f1f;
-}
 #listAll .shoplist3 a:hover{
     transform: translate3d(0, -6px, 0);
     box-shadow: none;
@@ -76,6 +76,17 @@ nav .logoB li a{
     height: 100%;
     margin-top: -55px;
 }
+#listAll ul li span{
+    display: inline-block;
+    position: absolute;
+    top: 380px;
+    left: 38%;
+    color: white;
+    border-radius: 20%;
+    border:1px solid white;
+    background: #1f1f1f;
+}
+/* 右侧购物车 */
 /* 底部 */
 .foot{
     background: #0d0d0d;

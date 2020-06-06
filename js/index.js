@@ -79,9 +79,9 @@ deff.done(function(json){
             strCon3 += `<li class="col-md-3 col-sm-4 col-xs-6">
                             <a href="./details1.html?pid=${pro.id}&cname=${attr}">
                                 <img src="img/${pro.src}" alt="" />
-                                <p>${pro.name}</p>
-                                <button>加入购物车</button>
+                                <p>${pro.name}</p>   
                             </a>
+                            <a href="#" class="GWC">加入购物车<span>
                         </li>`;
         }
     }
